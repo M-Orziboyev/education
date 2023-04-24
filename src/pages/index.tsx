@@ -1,8 +1,11 @@
-import {Heading} from "@/src/components";
+import {Heading, Text} from "@/src/components";
 
 const Index = () => {
   return (
-      <Heading tag='h3'>children</Heading>
+      <div>
+        <Heading tag='h3'>Heading</Heading>
+        <Text size='l'>Text</Text>
+      </div>
   )
 }
 export default Index
