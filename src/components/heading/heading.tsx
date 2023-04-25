@@ -1,4 +1,4 @@
-import {headingProps} from "@/src/components/Heading/heading.props";
+import {headingProps} from "@/src/components/heading/heading.props";
 import styles from './heading.module.css';
 const Heading = ({tag, children }: headingProps): JSX.Element => {
     switch (tag) {
