@@ -1,11 +1,10 @@
-import { Button, Heading, Input, Tag, Text, TextArea } from "@/src/components";
+import { Button, Input, Rating, Tag, Text, TextArea } from "@/src/components";
 import { useState } from "react";
 
 const Index = () => {
   const [isClick, setIsClick] = useState(false);
   return (
     <div>
-      <Heading tag='h3'>Heading</Heading>
       <Text size='l'>Text</Text>
       <Tag size={"m"} color={'red'}>$200</Tag>
       <Tag size="m" color="green">$900</Tag>
@@ -24,6 +23,9 @@ const Index = () => {
       <div>
         <TextArea placeholder="Message" />
       </div>
+      <br />
+
+      <Rating rating={5} />
     </div>
   )
 }
