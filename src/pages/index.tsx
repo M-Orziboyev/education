@@ -1,4 +1,4 @@
-import {Button, Heading, Tag, Text} from "@/src/components";
+import {Button, Heading, Input, Tag, Text} from "@/src/components";
 import {useState} from "react";
 
 const Index = () => {
@@ -16,6 +16,10 @@ const Index = () => {
           <Button appearance='primary' arrow='down'>
               Down
           </Button>
+          <br/>
+
+
+          <Input placeholder='Enter'/>
       </div>
   )
 }
