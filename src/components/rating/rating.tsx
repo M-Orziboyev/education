@@ -11,6 +11,24 @@ const Rating = ({ rating, isEditable = true, setRating, ...props }: RatingProps)
         renderRating(rating)
     }, [rating])
 
+
+
+
+    const renderRating = (currentRating: number) => {
+        const updateArray = ratingArray.map((r: JSX.Element, idx: number) => (
+            <span className={cn(styles.star, {
+                [styles.filled]: idx < currentRating,
+                [styles.editable]: isEditable
+            })}
+                onMouseEnter={() => changeRatingDisplay(idx + 1)}
+                onMouseLeave={() => changeRatingDisplay(rating)}
+                onClick={() => clickRatingHandler(idx + 1)}
+            >
+                <StarIcon />
+            </span>
+        ))
+        setRatingArray(updateArray)
+    }
     const changeRatingDisplay = (index: number) => {
         if (!isEditable) {
             return;
@@ -20,21 +38,12 @@ const Rating = ({ rating, isEditable = true, setRating, ...props }: RatingProps)
 
     }
 
-
-    const renderRating = (currentRating: number) => {
-        const updateArray = ratingArray.map((_rating: JSX.Element, idx: number) => (
-            <span className={cn(styles.star, {
-                [styles.filled]: idx < currentRating,
-                [styles.editable]: isEditable
-            })}
-                onMouseEnter={() => changeRatingDisplay(idx + 1)}
-            >
-                <StarIcon />
-            </span>
-        ))
-        setRatingArray(updateArray)
+    const clickRatingHandler = (index: number) => {
+        if (!isEditable || !setRating) {
+            return;
+        }
+            setRating(index)
     }
-
 
 
     return (
