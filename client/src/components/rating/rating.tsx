@@ -8,7 +8,7 @@ const Rating = ({ rating, isEditable = true, setRating, ...props }: RatingProps)
     const [ratingArray, setRatingArray] = useState<JSX.Element[]>((new Array(5).fill(<></>)))
 
     useEffect(() => {
-        renderRating(rating)
+        renderRating(rating as number)
     }, [rating])
 
 
@@ -21,7 +21,7 @@ const Rating = ({ rating, isEditable = true, setRating, ...props }: RatingProps)
                 [styles.editable]: isEditable
             })}
                 onMouseEnter={() => changeRatingDisplay(idx + 1)}
-                onMouseLeave={() => changeRatingDisplay(rating)}
+                onMouseLeave={() => changeRatingDisplay(rating as number)}
                 onClick={() => clickRatingHandler(idx + 1)}
             >
                 <StarIcon />
