@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e11def3d-ec5f-45e6-ba5b-238eb60db0bd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/src/db.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/.env" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/app.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/yarn-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/backend/yarn-error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/backend/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/layout/layout.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/layout/layout.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/layout/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/layout/layout.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +16,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2P41948wyXaUMl7mdo3WwWIK3u1" />
   <component name="ProjectViewState">
@@ -37,7 +36,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\Muzaffar\\Dasturlash\\education\\client\\node_modules\\typescript\\lib&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\Muzaffar\\Dasturlash\\education\\backend\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -56,7 +55,11 @@
       <option name="presentableId" value="Default" />
       <updated>1682701390671</updated>
       <workItem from="1682701396205" duration="1982000" />
-      <workItem from="1682763382095" duration="3444000" />
+      <workItem from="1682763382095" duration="6151000" />
+      <workItem from="1682823003158" duration="4309000" />
+      <workItem from="1682867105181" duration="1862000" />
+      <workItem from="1683041234798" duration="592000" />
+      <workItem from="1683293764338" duration="1569000" />
     </task>
     <servers />
   </component>
