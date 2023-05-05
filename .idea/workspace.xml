@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e11def3d-ec5f-45e6-ba5b-238eb60db0bd" name="Changes" comment="">
+    <list default="true" id="e11def3d-ec5f-45e6-ba5b-238eb60db0bd" name="Changes" comment="Shablon &amp;&amp; site structure">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/layout/layout.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/layout/layout.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/layout/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/layout/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/layout/footer/footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/layout/footer/footer.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/layout/footer/footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/layout/footer/footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/client/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,11 +61,23 @@
       <workItem from="1682823003158" duration="4309000" />
       <workItem from="1682867105181" duration="1862000" />
       <workItem from="1683041234798" duration="592000" />
-      <workItem from="1683293764338" duration="1569000" />
+      <workItem from="1683293764338" duration="2522000" />
     </task>
+    <task id="LOCAL-00001" summary="Shablon &amp;&amp; site structure">
+      <created>1683295541792</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683295541792</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Shablon &amp;&amp; site structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Shablon &amp;&amp; site structure" />
   </component>
 </project>
