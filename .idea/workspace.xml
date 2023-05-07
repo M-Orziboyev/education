@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e11def3d-ec5f-45e6-ba5b-238eb60db0bd" name="Changes" comment="footer component style">
-      <change afterPath="$PROJECT_DIR$/client/db.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/api/page-find/[id].ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/api/page-find/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/api/product-find.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/interfaces/menu.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/interfaces/page.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/interfaces/product.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/course/[slug].tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +63,7 @@
       <workItem from="1682867105181" duration="1862000" />
       <workItem from="1683041234798" duration="592000" />
       <workItem from="1683293764338" duration="7039000" />
+      <workItem from="1683473018057" duration="1839000" />
     </task>
     <task id="LOCAL-00001" summary="Shablon &amp;&amp; site structure">
       <created>1683295541792</created>
