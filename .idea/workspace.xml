@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e11def3d-ec5f-45e6-ba5b-238eb60db0bd" name="Changes" comment="SSR alias page &amp; interfaces">
-      <change afterPath="$PROJECT_DIR$/client/src/context/app.context.tsx" afterDir="false" />
+    <list default="true" id="e11def3d-ec5f-45e6-ba5b-238eb60db0bd" name="Changes" comment="Context Provider">
+      <change afterPath="$PROJECT_DIR$/client/src/helpers/constant.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/helpers/icons/books.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/helpers/icons/courses.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/layout/menu/menu.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/layout/menu/menu.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/interfaces/page.interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/interfaces/page.interface.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/interfaces/menu.interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/interfaces/menu.interface.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/layout/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/layout/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/layout/sidebar/sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/layout/sidebar/sidebar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +49,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Muzaffar\Dasturlash\education\client\src\helpers" />
       <recent name="D:\Muzaffar\Dasturlash\education\backend\src" />
       <recent name="D:\Muzaffar\Dasturlash\education\backend" />
     </key>
@@ -63,7 +70,7 @@
       <workItem from="1683293764338" duration="7039000" />
       <workItem from="1683473018057" duration="2471000" />
       <workItem from="1683550183631" duration="968000" />
-      <workItem from="1683719858963" duration="1958000" />
+      <workItem from="1683719858963" duration="4943000" />
     </task>
     <task id="LOCAL-00001" summary="Shablon &amp;&amp; site structure">
       <created>1683295541792</created>
@@ -86,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683474912946</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Context Provider">
+      <created>1683722186914</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1683722186914</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,6 +110,7 @@
     <MESSAGE value="Shablon &amp;&amp; site structure" />
     <MESSAGE value="footer component style" />
     <MESSAGE value="SSR alias page &amp; interfaces" />
-    <option name="LAST_COMMIT_MESSAGE" value="SSR alias page &amp; interfaces" />
+    <MESSAGE value="Context Provider" />
+    <option name="LAST_COMMIT_MESSAGE" value="Context Provider" />
   </component>
 </project>

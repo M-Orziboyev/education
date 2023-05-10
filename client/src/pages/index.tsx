@@ -5,7 +5,7 @@ import {GetServerSideProps} from "next";
 import axios from 'axios'
 import {MenuItem} from "@/src/interfaces/menu.interface";
 
-const Index = ({firstCategory, menu}: HomeProps):JSX.Element => {
+const Index = ():JSX.Element => {
     const [isClick, setIsClick] = useState(false);
     const [rating, setRating] = useState<Number>(4)
         return (
@@ -40,9 +40,6 @@ const Index = ({firstCategory, menu}: HomeProps):JSX.Element => {
                 <Card color={'white'}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid commodi deleniti
                     error est facere id maiores nemo nesciunt nihil, optio porro possimus provident ratione recusandae,
                     repellendus sint sunt ullam voluptatibus.</Card>
-                <ul>
-                    {menu.map(c=> <li key={c._id.secondCategory}>{c._id.secondCategory}</li>)}
-                </ul>
             </>
         )
     }
