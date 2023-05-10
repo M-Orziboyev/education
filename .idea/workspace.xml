@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e11def3d-ec5f-45e6-ba5b-238eb60db0bd" name="Changes" comment="Context Provider">
-      <change afterPath="$PROJECT_DIR$/client/src/helpers/constant.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/helpers/icons/books.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/helpers/icons/courses.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/layout/menu/menu.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/layout/menu/menu.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/interfaces/menu.interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/interfaces/menu.interface.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/layout/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/layout/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/layout/sidebar/sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/layout/sidebar/sidebar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/layout/menu/menu.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/layout/menu/menu.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +63,7 @@
       <workItem from="1683473018057" duration="2471000" />
       <workItem from="1683550183631" duration="968000" />
       <workItem from="1683719858963" duration="4943000" />
+      <workItem from="1683736637926" duration="627000" />
     </task>
     <task id="LOCAL-00001" summary="Shablon &amp;&amp; site structure">
       <created>1683295541792</created>
