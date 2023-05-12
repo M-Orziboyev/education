@@ -1,6 +1,6 @@
 import {useContext} from "react";
 import {AppContext} from "@/src/context/app.context";
-import {firstLevelMenu} from "@/src/helpers/constant";
+import {firstLevelMenu} from "@/src/helpers/constants";
 import Link from "next/link";
 import styles from "./menu.module.css"
 import cn from 'classnames'

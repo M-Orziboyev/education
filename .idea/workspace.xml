@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e11def3d-ec5f-45e6-ba5b-238eb60db0bd" name="Changes" comment="Menu component (complete)">
+      <change afterPath="$PROJECT_DIR$/client/src/pages/[type]/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/helpers/constant.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/helpers/constant.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/interfaces/menu.interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/interfaces/menu.interface.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/helpers/constant.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/helpers/constants.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/layout/menu/menu.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/layout/menu/menu.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/layout/menu/menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/layout/menu/menu.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/course/[slug].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/courses/[slug].tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/courses/[slug].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/[type]/[slug].tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +70,7 @@
       <workItem from="1683736637926" duration="2047000" />
       <workItem from="1683803108649" duration="4076000" />
       <workItem from="1683817953892" duration="1985000" />
-      <workItem from="1683890312144" duration="328000" />
+      <workItem from="1683890312144" duration="2668000" />
     </task>
     <task id="LOCAL-00001" summary="Shablon &amp;&amp; site structure">
       <created>1683295541792</created>
@@ -107,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683738615573</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Menu component (complete)">
+      <created>1683891023801</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1683891023801</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -4,28 +4,31 @@ import axios from "axios";
 import {MenuItem} from "@/src/interfaces/menu.interface";
 import {ProductModel} from "@/src/interfaces/product.interface";
 import {PageModel} from "@/src/interfaces/page.interface";
+import {firstLevelMenu} from "@/src/helpers/constants";
 
-const Index = ({menu, page, products}:PageProps):JSX.Element =>{
-    console.log(page)
+const Index = ({ products}:PageProps):JSX.Element =>{
     return <div>{products.length}</div>
 }
 
 export default withLayout(Index)
 
 export const getServerSideProps: GetServerSideProps<PageProps> = async ({query}) => {
-    const {slug} = query
-    const firstCategory:number = 0
+    const {slug, type} = query
     if(!slug){
         return{
             notFound:true
         }
     }
 
-    const {data: menu} = await axios.post<MenuItem[]>(`${process.env.NEXT_PUBLIC_DOMAIN}/api/page-find`, {firstCategory})
+    const firstCategoryItem = firstLevelMenu.find(c => c.route === type)
+
+    // @ts-ignore
+    const {data: menu} = await axios.post<MenuItem[]>(`${process.env.NEXT_PUBLIC_DOMAIN}/api/page-find`, {firstCategory: firstCategoryItem.id,})
     const {data: page} = await axios.get<PageModel[]>(`${process.env.NEXT_PUBLIC_DOMAIN}/api/page-find/${slug}`)
     const {data: products} = await axios.post<ProductModel[]>(`${process.env.NEXT_PUBLIC_DOMAIN}/api/product-find`, {category: slug})
     return{
-        props: {menu, page, products, firstCategory}
+    // @ts-ignore
+        props: {menu, page, products, firstCategory: firstCategoryItem.id}
     }
 }
 
