@@ -25,7 +25,7 @@ export const getServerSideProps: GetServerSideProps<PageProps> = async ({query})
     const {data: page} = await axios.get<PageModel[]>(`${process.env.NEXT_PUBLIC_DOMAIN}/api/page-find/${slug}`)
     const {data: products} = await axios.post<ProductModel[]>(`${process.env.NEXT_PUBLIC_DOMAIN}/api/product-find`, {category: slug})
     return{
-        props: {menu, page, products}
+        props: {menu, page, products, firstCategory}
     }
 }
 
@@ -33,4 +33,5 @@ interface PageProps extends Record<string, unknown> {
     menu: MenuItem[],
     page: PageModel[],
     products: ProductModel[],
+    firstCategory: number,
 }

@@ -4,11 +4,12 @@ export interface MenuItem {
     _id: {
         secondCategory:string;
     };
+    isOpened?:boolean;
     pages: PageItem[];
 }
 
 export interface PageItem{
-    alies:string;
+    alias:string;
     title: string;
     _id:string;
     category:string;
