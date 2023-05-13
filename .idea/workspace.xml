@@ -4,13 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e11def3d-ec5f-45e6-ba5b-238eb60db0bd" name="Changes" comment="Menu component (complete)">
-      <change afterPath="$PROJECT_DIR$/client/src/pages/[type]/index.tsx" afterDir="false" />
+    <list default="true" id="e11def3d-ec5f-45e6-ba5b-238eb60db0bd" name="Changes" comment="Route SSR">
+      <change afterPath="$PROJECT_DIR$/client/src/components/devider/devider.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/devider/devider.prop.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/devider/devider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/layout/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/page-components/course-page-component/course-page-component.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/page-components/course-page-component/course-page-component.props.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/page-components/course-page-component/course-page-component.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/page-components/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/helpers/constant.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/helpers/constants.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/layout/menu/menu.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/layout/menu/menu.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/layout/menu/menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/layout/menu/menu.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/courses/[slug].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/[type]/[slug].tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/layout/sidebar/sidebar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/layout/sidebar/sidebar.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/layout/sidebar/sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/layout/sidebar/sidebar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/[type]/[slug].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/[type]/[slug].tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +46,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\Muzaffar\\Dasturlash\\education\\backend\\node_modules\\typescript\\lib&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\Muzaffar\\Dasturlash\\education\\client\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -70,7 +77,9 @@
       <workItem from="1683736637926" duration="2047000" />
       <workItem from="1683803108649" duration="4076000" />
       <workItem from="1683817953892" duration="1985000" />
-      <workItem from="1683890312144" duration="2668000" />
+      <workItem from="1683890312144" duration="3381000" />
+      <workItem from="1683902656265" duration="2104000" />
+      <workItem from="1683974606476" duration="4403000" />
     </task>
     <task id="LOCAL-00001" summary="Shablon &amp;&amp; site structure">
       <created>1683295541792</created>
@@ -114,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683891023801</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Route SSR">
+      <created>1683893202686</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1683893202686</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +143,7 @@
     <MESSAGE value="Context Provider" />
     <MESSAGE value="Menu component (not compelete)" />
     <MESSAGE value="Menu component (complete)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Menu component (complete)" />
+    <MESSAGE value="Route SSR" />
+    <option name="LAST_COMMIT_MESSAGE" value="Route SSR" />
   </component>
 </project>
