@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e11def3d-ec5f-45e6-ba5b-238eb60db0bd" name="Changes" comment="Devider Component &amp; Page components" />
+    <list default="true" id="e11def3d-ec5f-45e6-ba5b-238eb60db0bd" name="Changes" comment="Devider Component &amp; Page components">
+      <change afterPath="$PROJECT_DIR$/client/src/components/hh-data/hhData.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/hh-data/hhData.props.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/hh-data/hhData.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/hh-data/rate.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/card/card.props.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/card/card.props.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/card/card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/card/card.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/page-components/course-page-component/course-page-component.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/page-components/course-page-component/course-page-component.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/page-components/course-page-component/course-page-component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/page-components/course-page-component/course-page-component.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,6 +54,25 @@
       <recent name="D:\Muzaffar\Dasturlash\education\backend" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="hhData.tsx" type="TypeScriptProgramRunner" factoryName="TypeScript" temporary="true">
+      <module name="education" />
+      <option name="interpreterRef" value="project" />
+      <option name="enabledTsNodeEsmLoader" value="false" />
+      <option name="interpreterOptions" value="" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/client/src/components/hh-data" />
+      <option name="tsconfigFile" value="" />
+      <option name="extraTypeScriptOptions" value="" />
+      <option name="scriptName" value="$PROJECT_DIR$/client/src/components/hh-data/hhData.tsx" />
+      <option name="programParameters" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TypeScript.hhData.tsx" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -66,6 +96,8 @@
       <workItem from="1683890312144" duration="3381000" />
       <workItem from="1683902656265" duration="2104000" />
       <workItem from="1683974606476" duration="4463000" />
+      <workItem from="1684080841780" duration="1833000" />
+      <workItem from="1684086208371" duration="2155000" />
     </task>
     <task id="LOCAL-00001" summary="Shablon &amp;&amp; site structure">
       <created>1683295541792</created>
@@ -123,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683982211645</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Devider Component &amp; Page components">
+      <created>1684084856723</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1684084856723</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

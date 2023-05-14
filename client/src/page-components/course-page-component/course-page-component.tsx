@@ -2,6 +2,7 @@ import {CoursePageComponentProps} from "@/src/page-components/course-page-compon
 import styles from "./course-page-component.module.css"
 import Heading from "@/src/components/heading/heading";
 import Tag from "@/src/components/tag/tag"
+import {HhData} from "@/src/components";
 const CoursePageComponent = ({firstCategory, page, products}:CoursePageComponentProps):JSX.Element => {
     return <div className={styles.wrapper}>
         {/*TITLE*/}
@@ -18,7 +19,7 @@ const CoursePageComponent = ({firstCategory, page, products}:CoursePageComponent
         </div>
 
     {/*    HH DATA*/}
-        <div>HHDATA</div>
+        {page.hh && <HhData {...page.hh} />}
     </div>
 }
 
