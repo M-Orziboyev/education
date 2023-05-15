@@ -7,3 +7,4 @@ export { default as Rating } from './rating/rating';
 export { default as Card} from './card/card';
 export {default as Devider} from './devider/devider';
 export {default as HhData} from './hh-data/hhData'
+export {default as Advantages} from './advantages/advantages'
