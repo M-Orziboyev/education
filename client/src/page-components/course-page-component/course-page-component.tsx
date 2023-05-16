@@ -2,19 +2,18 @@ import {CoursePageComponentProps} from "@/src/page-components/course-page-compon
 import styles from "./course-page-component.module.css"
 import Heading from "@/src/components/heading/heading";
 import Tag from "@/src/components/tag/tag"
-import {Advantages, HhData} from "@/src/components";
+import {Advantages, HhData, Product} from "@/src/components";
 import {Text} from "domelementtype";
-import tag from "@/src/components/tag/tag";
 
-const CoursePageComponent = ({firstCategory, page, products}: CoursePageComponentProps): JSX.Element => {
+const CoursePageComponent = ({page, products}: CoursePageComponentProps): JSX.Element => {
+    console.log(products)
     return <div className={styles.wrapper}>
         {/*TITLE*/}
         <div className={styles.title}>
             <Heading tag='h1'>{page.title}</Heading>
             <div>Sort ....</div>
         </div>
-        {/*    Products   */}
-        <div>Products</div>
+        <div>{products && products.map(c => <Product key={c._id} product={c}/>)}</div>
         {/*    Vocations*/}
         <div className={styles.hhTitle}>
             <Heading tag='h2'>Vacations - {page.category}</Heading>

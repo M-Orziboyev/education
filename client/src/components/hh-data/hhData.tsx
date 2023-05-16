@@ -2,6 +2,7 @@ import {HhData} from "@/src/interfaces/page.interface";
 import styles from "./hhData.module.css"
 import {Card} from "@/src/components";
 import RateIcon from './rate.svg'
+import {convertToUSD} from "@/src/helpers/helpers";
 
 const HhData = ({count, seniorSalary, juniorSalary, middleSalary}: HhData): JSX.Element => {
     return <div className={styles.hh}>
@@ -15,7 +16,7 @@ const HhData = ({count, seniorSalary, juniorSalary, middleSalary}: HhData): JSX.
             <div className={styles.salary}>
                 <div>
                     <div className={styles.title}>Junior</div>
-                    <div className={styles.salaryValue}>Junior Salary</div>
+                    <div className={styles.salaryValue}>{convertToUSD(juniorSalary)}</div>
                     <div className={styles.rate}>
                         <RateIcon className={styles.filled}/>
                         <RateIcon/>
@@ -24,7 +25,7 @@ const HhData = ({count, seniorSalary, juniorSalary, middleSalary}: HhData): JSX.
                 </div>
                 <div>
                     <div className={styles.title}>Middle</div>
-                    <div className={styles.salaryValue}>Middle Salary</div>
+                    <div className={styles.salaryValue}>{convertToUSD(middleSalary)}</div>
                     <div className={styles.rate}>
                         <RateIcon className={styles.filled}/>
                         <RateIcon className={styles.filled}/>
@@ -33,7 +34,7 @@ const HhData = ({count, seniorSalary, juniorSalary, middleSalary}: HhData): JSX.
                 </div>
                 <div>
                     <div className={styles.title}>Senior</div>
-                    <div className={styles.salaryValue}>Senior Salary</div>
+                    <div className={styles.salaryValue}>{convertToUSD(seniorSalary)}</div>
                     <div className={styles.rate}>
                         <RateIcon className={styles.filled}/>
                         <RateIcon className={styles.filled}/>

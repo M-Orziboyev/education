@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e11def3d-ec5f-45e6-ba5b-238eb60db0bd" name="Changes" comment="Heading Hunter Data (HH Data)">
-      <change afterPath="$PROJECT_DIR$/client/src/components/advantages/advantages.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/advantages/advantages.props.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/advantages/advantages.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/advantages/check.svg" afterDir="false" />
+    <list default="true" id="e11def3d-ec5f-45e6-ba5b-238eb60db0bd" name="Changes" comment="Advantage page">
+      <change afterPath="$PROJECT_DIR$/client/src/components/product/product.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/product/product.props.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/product/product.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/helpers/helpers.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/hh-data/hhData.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/hh-data/hhData.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/interfaces/page.interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/interfaces/page.interface.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/page-components/course-page-component/course-page-component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/page-components/course-page-component/course-page-component.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +96,8 @@
       <workItem from="1683974606476" duration="4463000" />
       <workItem from="1684080841780" duration="1833000" />
       <workItem from="1684086208371" duration="2471000" />
-      <workItem from="1684150718015" duration="1886000" />
+      <workItem from="1684150718015" duration="3636000" />
+      <workItem from="1684234535551" duration="3364000" />
     </task>
     <task id="LOCAL-00001" summary="Shablon &amp;&amp; site structure">
       <created>1683295541792</created>
@@ -168,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684088657657</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Advantage page">
+      <created>1684154383714</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1684154383714</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +193,7 @@
     <MESSAGE value="Devider Component &amp; Page components" />
     <MESSAGE value="Heading Hunter Data" />
     <MESSAGE value="Heading Hunter Data (HH Data)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Heading Hunter Data (HH Data)" />
+    <MESSAGE value="Advantage page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Advantage page" />
   </component>
 </project>
