@@ -3,40 +3,20 @@
     padding: 10px;
     cursor: pointer;
     text-align: center;
-    border-radius: 5px;
-    border: none;
-    font-size: 14px;
-    transition: all .2s ease
-}
-.primary{
-    color: var(--white);
-    background-color: var(--primary);
-}
-
-.primary:hover{
-    background-color: var(--primary-hover)
-}
-.ghost{
-    color: var(--primary);
-    background: none;
-    border: 1px solid var(--primary);
-}
-
-.ghost:hover{
-    color: #08011a;
-}
-
-.button {
-    display: inline-block;
-    padding: 10px;
-    cursor: pointer;
-    text-align: center;
     border: none;
     border-radius: 5px;
     font-size: 14px;
     margin-right: 5px;
     margin-top: 5px;
     transition: all 0.2s ease;
+}
+
+.s {
+    padding: 8px;
+}
+
+.l {
+    padding: 12px;
 }
 
 .primary {
@@ -59,6 +39,25 @@
     background-color: var(--primary);
 }
 
+.success {
+    color: var(--white);
+    background-color: var(--green);
+}
+
+.success:hover {
+    background-color: var(--green-light);
+    color: var(--green);
+}
+
+.failure {
+    color: var(--black);
+    background-color: var(--red);
+}
+
+.failure:hover {
+    background-color: var(--red-light);
+}
+
 .arrow {
     display: inline-block;
     margin-left: 10px;
@@ -68,8 +67,16 @@
     transform: rotate(90deg);
     transition: all 0.2s ease;
 }
-.primary.svg,
-.ghost:hover.svg{
+
+.success svg {
     fill: var(--white);
 }
 
+.success:hover svg {
+    fill: var(--green);
+}
+
+.primary svg,
+.ghost:hover svg {
+    fill: var(--white);
+}

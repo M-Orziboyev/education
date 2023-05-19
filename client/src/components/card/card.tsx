@@ -3,7 +3,7 @@ import styles from './card.module.css';
 import cn from 'classnames'
 
 const Card = ({children, color = 'primary', className, ...props}:CardProps):JSX.Element => {
-    return <div className={cn(styles.card, {
+    return <div className={cn(styles.card, className, {
         [styles.primary]: color === 'primary',
     })} {...props}>
         {children}
