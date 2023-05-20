@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e11def3d-ec5f-45e6-ba5b-238eb60db0bd" name="Changes" comment="Product (Complete)">
-      <change afterPath="$PROJECT_DIR$/client/src/components/search/search.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/search/search.props.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/search/search.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/search/search.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/search.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/product/product.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/product/product.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/layout/sidebar/sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/layout/sidebar/sidebar.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="e11def3d-ec5f-45e6-ba5b-238eb60db0bd" name="Changes" comment="Search (Not Complete)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -104,7 +94,7 @@
       <workItem from="1684501743448" duration="761000" />
       <workItem from="1684502556557" duration="1539000" />
       <workItem from="1684514234074" duration="5286000" />
-      <workItem from="1684545561301" duration="2327000" />
+      <workItem from="1684545561301" duration="2382000" />
     </task>
     <task id="LOCAL-00001" summary="Shablon &amp;&amp; site structure">
       <created>1683295541792</created>
@@ -204,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684521818433</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Search (Not Complete)">
+      <created>1684548989293</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1684548989293</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +221,7 @@
     <MESSAGE value="Advantage page" />
     <MESSAGE value="Product (Not Complete)" />
     <MESSAGE value="Product (Complete)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Product (Complete)" />
+    <MESSAGE value="Search (Not Complete)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Search (Not Complete)" />
   </component>
 </project>
