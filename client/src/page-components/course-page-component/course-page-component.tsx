@@ -2,7 +2,7 @@ import {CoursePageComponentProps} from "@/src/page-components/course-page-compon
 import styles from "./course-page-component.module.css"
 import Heading from "@/src/components/heading/heading";
 import Tag from "@/src/components/tag/tag"
-import {Advantages, HhData, Product} from "@/src/components";
+import {Advantages, HhData, Product, Sort} from "@/src/components";
 import {Text} from "domelementtype";
 
 const CoursePageComponent = ({page, products}: CoursePageComponentProps): JSX.Element => {
@@ -11,7 +11,7 @@ const CoursePageComponent = ({page, products}: CoursePageComponentProps): JSX.El
         {/*TITLE*/}
         <div className={styles.title}>
             <Heading tag='h1'>{page.title}</Heading>
-            <div>Sort ....</div>
+            <Sort />
         </div>
         <div>{products && products.map(c => <Product key={c._id} product={c}/>)}</div>
         {/*    Vocations*/}
