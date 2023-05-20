@@ -4,7 +4,7 @@ import cn from 'classnames'
 import styles from "./sidebar.module.css"
 import Link from "next/link";
 import Logo from '../logo.svg'
-import {Devider} from "@/src/components";
+import {Devider, Search} from "@/src/components";
 
 const Sidebar = ({className, ...props}: SidebarProps): JSX.Element => {
     return <div className={cn(className, styles.sidebar)} {...props}>
@@ -12,7 +12,7 @@ const Sidebar = ({className, ...props}: SidebarProps): JSX.Element => {
             <Logo />
             <Devider />
         </Link>
-        <div>Search...</div>
+        <Search />
         <Menu/>
     </div>
 }

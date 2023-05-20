@@ -41,6 +41,7 @@
 }
 
 .hr,
+.hr2,
 .description,
 .actions {
     grid-column: start / end;

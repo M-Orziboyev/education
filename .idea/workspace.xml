@@ -4,21 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e11def3d-ec5f-45e6-ba5b-238eb60db0bd" name="Changes" comment="Product (Not Complete)">
-      <change afterPath="$PROJECT_DIR$/client/src/components/review-form/review-form.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/review-form/review-form.props.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/review-form/review-form.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/review/review.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/review/review.props.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/review/review.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/review/user.svg" afterDir="false" />
+    <list default="true" id="e11def3d-ec5f-45e6-ba5b-238eb60db0bd" name="Changes" comment="Product (Complete)">
+      <change afterPath="$PROJECT_DIR$/client/src/components/search/search.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/search/search.props.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/search/search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/search/search.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/search.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/button/button.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/button/button.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/button/button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/button/button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/card/card.props.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/card/card.props.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/card/card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/card/card.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/product/product.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/product/product.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/product/product.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/product/product.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/layout/sidebar/sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/layout/sidebar/sidebar.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,21 +31,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "ts.external.directory.path": "D:\\Muzaffar\\Dasturlash\\education\\client\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\Muzaffar\\Dasturlash\\education\\client\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Muzaffar\Dasturlash\education\client\src\components\review" />
@@ -108,7 +103,8 @@
       <workItem from="1684421437561" duration="291000" />
       <workItem from="1684501743448" duration="761000" />
       <workItem from="1684502556557" duration="1539000" />
-      <workItem from="1684514234074" duration="5062000" />
+      <workItem from="1684514234074" duration="5286000" />
+      <workItem from="1684545561301" duration="2327000" />
     </task>
     <task id="LOCAL-00001" summary="Shablon &amp;&amp; site structure">
       <created>1683295541792</created>
@@ -201,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684514367793</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Product (Complete)">
+      <created>1684521818433</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1684521818433</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +223,7 @@
     <MESSAGE value="Heading Hunter Data (HH Data)" />
     <MESSAGE value="Advantage page" />
     <MESSAGE value="Product (Not Complete)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Product (Not Complete)" />
+    <MESSAGE value="Product (Complete)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Product (Complete)" />
   </component>
 </project>
