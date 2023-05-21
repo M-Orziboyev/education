@@ -4,14 +4,22 @@ import Heading from "@/src/components/heading/heading";
 import Tag from "@/src/components/tag/tag"
 import {Advantages, HhData, Product, Sort} from "@/src/components";
 import {Text} from "domelementtype";
+import {useReducer} from "react";
+import {sortReducer} from "@/src/page-components/course-page-component/sort.reducer";
+import {SortEnum} from "@/src/components/sort/sort.prop";
 
 const CoursePageComponent = ({page, products}: CoursePageComponentProps): JSX.Element => {
-    console.log(products)
+
+    const [state, dispatch] = useReducer(sortReducer, {sort: SortEnum.Rating, products: products})
+    const setSort = (sort: SortEnum) => {
+        dispatch({type: sort});
+    }
+
     return <div className={styles.wrapper}>
         {/*TITLE*/}
         <div className={styles.title}>
             <Heading tag='h1'>{page.title}</Heading>
-            <Sort />
+            <Sort sort={state.sort} setSort={setSort}/>
         </div>
         <div>{products && products.map(c => <Product key={c._id} product={c}/>)}</div>
         {/*    Vocations*/}

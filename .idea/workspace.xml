@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e11def3d-ec5f-45e6-ba5b-238eb60db0bd" name="Changes" comment="Search (Complete)">
-      <change afterPath="$PROJECT_DIR$/client/src/components/sort/sort.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/sort/sort.prop.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/sort/sort.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/sort/sort.tsx" afterDir="false" />
+    <list default="true" id="e11def3d-ec5f-45e6-ba5b-238eb60db0bd" name="Changes" comment="Sort Component">
+      <change afterPath="$PROJECT_DIR$/client/src/page-components/course-page-component/sort.reducer.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/sort/sort.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/sort/sort.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/page-components/course-page-component/course-page-component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/page-components/course-page-component/course-page-component.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,21 +26,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\Muzaffar\\Dasturlash\\education\\client\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "ts.external.directory.path": "D:\\Muzaffar\\Dasturlash\\education\\backend\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Muzaffar\Dasturlash\education\client\src\components\review" />
@@ -104,7 +101,8 @@
       <workItem from="1684514234074" duration="5286000" />
       <workItem from="1684545561301" duration="2713000" />
       <workItem from="1684568833846" duration="2710000" />
-      <workItem from="1684578830729" duration="1875000" />
+      <workItem from="1684578830729" duration="4139000" />
+      <workItem from="1684628996985" duration="992000" />
     </task>
     <task id="LOCAL-00001" summary="Shablon &amp;&amp; site structure">
       <created>1683295541792</created>
@@ -225,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684575766663</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Sort Component">
+      <created>1684594309597</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1684594309597</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,6 +252,7 @@
     <MESSAGE value="Product (Complete)" />
     <MESSAGE value="Search (Not Complete)" />
     <MESSAGE value="Search (Complete)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Search (Complete)" />
+    <MESSAGE value="Sort Component" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sort Component" />
   </component>
 </project>
