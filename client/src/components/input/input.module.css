@@ -1,4 +1,4 @@
-.input{
+.input {
     padding: 7px 15px;
     color: var(--black);
     border: none;
@@ -10,6 +10,22 @@
     border-radius: 5px;
     font-family: var(--font-family);
 }
-.input::placeholder{
+
+.input::placeholder {
     color: var(--gray);
+}
+
+.error {
+    border: 2px solid var(--red);
+}
+
+.inputWrapper {
+    position: relative;
+}
+
+.errorMessage {
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    color: var(--red);
 }

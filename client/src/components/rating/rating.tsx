@@ -1,58 +1,65 @@
+import { RatingProps } from './rating.props';
 import styles from './rating.module.css';
 import cn from 'classnames';
-import { RatingProps } from './rating.props';
-import {useState, useEffect, forwardRef, ForwardedRef} from 'react';
-import StarIcon from './star.svg'
+import { ForwardedRef, forwardRef, useEffect, useState } from 'react';
+import StarIcon from './star.svg';
 
-const Rating = forwardRef(({ rating, isEditable = true, setRating, ...props }: RatingProps, ref: ForwardedRef<HTMLDivElement>): JSX.Element => {
-    const [ratingArray, setRatingArray] = useState<JSX.Element[]>((new Array(5).fill(<></>)))
+const Rating = forwardRef(
+    ({ rating, isEditable = false, setRating, error, ...props }: RatingProps, ref: ForwardedRef<HTMLDivElement>): JSX.Element => {
+        const [ratingArray, setRatingArray] = useState<JSX.Element[]>(new Array(5).fill(<></>));
 
-    useEffect(() => {
-        renderRating(rating as number)
-    }, [rating])
+        useEffect(() => {
+            renderRating(rating);
+        }, [rating]);
 
+        const renderRating = (currentRating: number) => {
+            const updateArray = ratingArray.map((r: JSX.Element, idx: number) => (
+                <span
+                    className={cn(styles.star, {
+                        [styles.filled]: idx < currentRating,
+                        [styles.editable]: isEditable,
+                    })}
+                    onMouseEnter={() => chnageRatingDisplay(idx + 1)}
+                    onMouseLeave={() => chnageRatingDisplay(rating)}
+                    onClick={() => clickRatingHandler(idx + 1)}
+                >
+					<StarIcon />
+				</span>
+            ));
 
+            setRatingArray(updateArray);
+        };
 
+        const chnageRatingDisplay = (index: number) => {
+            if (!isEditable) {
+                return;
+            }
 
-    const renderRating = (currentRating: number) => {
-        const updateArray = ratingArray.map((r: JSX.Element, idx: number) => (
-            <span className={cn(styles.star, {
-                [styles.filled]: idx < currentRating,
-                [styles.editable]: isEditable
-            })}
-                onMouseEnter={() => changeRatingDisplay(idx + 1)}
-                onMouseLeave={() => changeRatingDisplay(rating as number)}
-                onClick={() => clickRatingHandler(idx + 1)}
+            renderRating(index);
+        };
+
+        const clickRatingHandler = (index: number) => {
+            if (!isEditable || !setRating) {
+                return;
+            }
+            setRating(index);
+        };
+
+        return (
+            <div
+                className={cn(styles.rating, {
+                    [styles.error]: error,
+                })}
+                ref={ref}
+                {...props}
             >
-                <StarIcon />
-            </span>
-        ))
-        setRatingArray(updateArray)
+                {ratingArray.map((rating, idx) => (
+                    <span key={idx}>{rating}</span>
+                ))}
+                {error && <span className={styles.errorMessage}>{error.message}</span>}
+            </div>
+        );
     }
-    const changeRatingDisplay = (index: number) => {
-        if (!isEditable) {
-            return;
-        } else {
-            renderRating(index)
-        }
+);
 
-    }
-
-    const clickRatingHandler = (index: number) => {
-        if (!isEditable || !setRating) {
-            return;
-        }
-            setRating(index)
-    }
-
-
-    return (
-        <div className={styles.rating} {...props} ref={ref}>
-            {ratingArray.map((rating, idx) => (
-                <span key={idx}>{rating}</span>
-            ))}
-        </div>
-    );
-})
-
-export default Rating
+export default Rating;
