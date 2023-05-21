@@ -102,7 +102,7 @@
       <workItem from="1684545561301" duration="2713000" />
       <workItem from="1684568833846" duration="2710000" />
       <workItem from="1684578830729" duration="4139000" />
-      <workItem from="1684628996985" duration="992000" />
+      <workItem from="1684628996985" duration="1567000" />
     </task>
     <task id="LOCAL-00001" summary="Shablon &amp;&amp; site structure">
       <created>1683295541792</created>
@@ -230,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684594309597</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Sort Component">
+      <created>1684630571061</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1684630571061</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
