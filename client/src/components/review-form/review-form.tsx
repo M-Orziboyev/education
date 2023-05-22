@@ -1,31 +1,37 @@
-import {IReviewResponse, ReviewFormProps} from './review-form.props';
+import {ReviewFormProps} from './review-form.props';
 import styles from './review-form.module.css';
 import cn from 'classnames';
 import Input from '../input/input';
 import Rating from '../rating/rating';
 import {Button, TextArea} from '..';
 import {Controller, useForm} from 'react-hook-form';
-import {IReviewForm} from './review-form.interface';
+import {IReviewForm, IReviewResponse} from './review-form.interface';
 import axios from "axios";
-
+import {useState} from "react";
+import CloseIcon from './close.svg'
 const ReviewForm = ({productid, className, ...props}: ReviewFormProps): JSX.Element => {
+    const [isSuccess, setIsSuccess] = useState<boolean>(false)
+    const [error, setError] = useState<boolean>(false)
     const {
         register,
         handleSubmit,
         control,
+        reset,
         formState: {errors},
     } = useForm<IReviewForm>();
 
     const onSubmit = async (fromData: IReviewForm) => {
-        // try {
-        //     // @ts-ignore
-        //     const {data} = await axios.post<IReviewResponse>(`${process.env.NEXT_PULIC_API}/posts`), {
-        //         // ...formData,
-        //         // productId: productid,
-        //     }
-        // } catch (error) {
-        //     console.log(error)
-        // }
+        setError(false)
+        setIsSuccess(false)
+        try{
+            const { status} = await axios.post<IReviewResponse>(`${process.env.NEXT_PUBLIC_API}/posts`, { ...fromData, productID: productid})
+            if (status === 201){
+                setIsSuccess(true);
+                reset();
+            }
+        }catch(error){
+            setError(true)
+        }
     };
 
     return (
@@ -67,6 +73,19 @@ const ReviewForm = ({productid, className, ...props}: ReviewFormProps): JSX.Elem
                         className={styles.info}>* Your review will be moderated and reviewed before being published.</span>
                 </div>
             </div>
+            {isSuccess && (
+                <div className={cn(styles.success, styles.panel)}>
+                    <div className={styles.successTitle}>Review send successfully</div>
+                    <div>Thanks your review will published after testing</div>
+                    <CloseIcon className={styles.close} onClick={() => setIsSuccess(false)}/>
+                </div>
+            )}
+            {error && (
+                <div className={cn(styles.error, styles.panel)}>
+                    <div className={styles.successTitle}>Something went wrong</div>
+                    <CloseIcon className={styles.close} onClick={() => setError(false )}/>
+                </div>
+            )}
         </form>
     );
 };

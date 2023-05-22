@@ -27,6 +27,33 @@
 .info {
     margin-left: 15px;
 }
+.panel{
+    padding: 20px;
+    position: relative;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.error{
+    background-color: var(--red-light);
+ }
+
+.success{
+    background-color: var(--green-light);
+}
+
+.close{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+}
+.error .close path {
+    stroke: var(--black)
+}
+
+.successTitle{
+    font-weight: bold;
+}
 
 @media screen and (max-width: 740px) {
     .reviewForm {
