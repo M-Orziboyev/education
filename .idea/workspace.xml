@@ -4,17 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e11def3d-ec5f-45e6-ba5b-238eb60db0bd" name="Changes" comment="Login React-hook-form">
+    <list default="true" id="e11def3d-ec5f-45e6-ba5b-238eb60db0bd" name="Changes" comment="Validations">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/input/input.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/input/input.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/input/input.props.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/input/input.props.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/input/input.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/input/input.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/rating/rating.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/rating/rating.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/review-form/review-form.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/review-form/review-form.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/rating/rating.props.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/rating/rating.props.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/review-form/review-form.props.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/review-form/review-form.props.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/review-form/review-form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/review-form/review-form.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/text-area/text-area.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/text-area/text-area.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/text-area/text-area.props.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/text-area/text-area.props.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/text-area/text-area.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/text-area/text-area.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +109,8 @@
       <workItem from="1684568833846" duration="2710000" />
       <workItem from="1684578830729" duration="4139000" />
       <workItem from="1684628996985" duration="4813000" />
-      <workItem from="1684672675647" duration="3045000" />
+      <workItem from="1684672675647" duration="4309000" />
+      <workItem from="1684754884668" duration="2890000" />
     </task>
     <task id="LOCAL-00001" summary="Shablon &amp;&amp; site structure">
       <created>1683295541792</created>
@@ -262,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684633820332</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Validations">
+      <created>1684675835551</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1684675835551</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,6 +302,7 @@
     <MESSAGE value="Search (Complete)" />
     <MESSAGE value="Sort Component" />
     <MESSAGE value="Login React-hook-form" />
-    <option name="LAST_COMMIT_MESSAGE" value="Login React-hook-form" />
+    <MESSAGE value="Validations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Validations" />
   </component>
 </project>
