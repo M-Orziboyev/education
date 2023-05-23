@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e11def3d-ec5f-45e6-ba5b-238eb60db0bd" name="Changes" comment="Validations (fixed all bugs)">
-      <change afterPath="$PROJECT_DIR$/client/src/components/review-form/close.svg" afterDir="false" />
+    <list default="true" id="e11def3d-ec5f-45e6-ba5b-238eb60db0bd" name="Changes" comment="Post data to server">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/client/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/review-form/review-form.interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/review-form/review-form.interface.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/review-form/review-form.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/review-form/review-form.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/review-form/review-form.props.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/review-form/review-form.props.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/review-form/review-form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/review-form/review-form.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/card/card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/card/card.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/product/product.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/product/product.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/helpers/helpers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/helpers/helpers.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +108,8 @@
       <workItem from="1684578830729" duration="4139000" />
       <workItem from="1684628996985" duration="4813000" />
       <workItem from="1684672675647" duration="4309000" />
-      <workItem from="1684754884668" duration="5425000" />
+      <workItem from="1684754884668" duration="5701000" />
+      <workItem from="1684771102286" duration="4032000" />
     </task>
     <task id="LOCAL-00001" summary="Shablon &amp;&amp; site structure">
       <created>1683295541792</created>
@@ -274,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684758034163</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Post data to server">
+      <created>1684760554091</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1684760554091</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,6 +317,7 @@
     <MESSAGE value="Login React-hook-form" />
     <MESSAGE value="Validations" />
     <MESSAGE value="Validations (fixed all bugs)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Validations (fixed all bugs)" />
+    <MESSAGE value="Post data to server" />
+    <option name="LAST_COMMIT_MESSAGE" value="Post data to server" />
   </component>
 </project>

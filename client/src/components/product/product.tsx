@@ -1,25 +1,32 @@
-import { ProductProps } from './product.props';
+import {ProductProps} from './product.props';
 import styles from './product.module.css';
 import Card from '../card/card';
 import Image from 'next/image';
-import { convertToUSD } from '../../helpers/helpers';
+import {convertToUSD, detectedReview} from '../../helpers/helpers';
 import Rating from '../rating/rating';
 import Tag from '../tag/tag';
 import Devider from '../devider/devider';
 import Button from '../button/button';
 import cn from 'classnames';
-import { useState } from 'react';
+import {useRef, useState} from 'react';
 import Review from '../review/review';
 import ReviewForm from '../review-form/review-form';
 
-const Product = ({ product, className, ...props }: ProductProps): JSX.Element => {
+const Product = ({product, className, ...props}: ProductProps): JSX.Element => {
     const [reviewOpen, setReviewOpen] = useState<boolean>(false);
+
+    const reviewRef = useRef<HTMLDivElement>(null)
+
+    const scrollToReview = () => {
+        setReviewOpen(true);
+        reviewRef.current?.scrollIntoView({behavior: 'smooth', block: "start"})
+    }
 
     return (
         <div className={className} {...props}>
             <Card className={styles.product}>
                 <div className={styles.logo}>
-                    <Image src={product.images} alt={product.title} width={70} height={70} />
+                    <Image src={product.images} alt={product.title} width={70} height={70}/>
                 </div>
                 <div className={styles.title}>{product.title}</div>
                 <div className={styles.price}>
@@ -34,7 +41,7 @@ const Product = ({ product, className, ...props }: ProductProps): JSX.Element =>
                     {convertToUSD(product.credit)}/<span className={styles.month}>month</span>
                 </div>
                 <div className={styles.rating}>
-                    <Rating rating={product.initialRating} />
+                    <Rating rating={product.initialRating}/>
                 </div>
                 <div className={styles.tags}>
                     {product.tags.length &&
@@ -46,9 +53,12 @@ const Product = ({ product, className, ...props }: ProductProps): JSX.Element =>
                 </div>
                 <div className={styles.priceTitle}>Price</div>
                 <div className={styles.creditTitle}>Credit</div>
-                <div className={styles.rateTitle}>{product.reviewCount} reviews</div>
+                <div className={styles.rateTitle}>
+                    <a href='#review'
+                       onClick={scrollToReview}>{product.reviewCount} {detectedReview(product.reviewCount)}</a>
+                </div>
 
-                <Devider className={styles.hr} />
+                <Devider className={styles.hr}/>
 
                 <div className={styles.description}>{product.description}</div>
 
@@ -78,7 +88,7 @@ const Product = ({ product, className, ...props }: ProductProps): JSX.Element =>
                     )}
                 </div>
 
-                <Devider className={styles.hr2} />
+                <Devider className={styles.hr2}/>
 
                 <div className={styles.actions}>
                     <Button appearance='primary'>More Details</Button>
@@ -94,6 +104,7 @@ const Product = ({ product, className, ...props }: ProductProps): JSX.Element =>
             </Card>
             <Card
                 color='white'
+                ref={reviewRef}
                 className={cn(styles.review, {
                     [styles.opened]: reviewOpen,
                     [styles.closed]: !reviewOpen,
@@ -101,14 +112,18 @@ const Product = ({ product, className, ...props }: ProductProps): JSX.Element =>
             >
                 {product.reviews.map(r => (
                     <div key={r._id}>
-                        <Review review={r} />
-                        <Devider />
+                        <Review review={r}/>
+                        <Devider/>
                     </div>
                 ))}
-                <ReviewForm productid={product._id} />
+                <ReviewForm productid={product._id}/>
             </Card>
         </div>
     );
 };
 
 export default Product;
+
+function setReviewOpen(arg0: boolean) {
+    throw new Error('Function not implemented.');
+}
