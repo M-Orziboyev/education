@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e11def3d-ec5f-45e6-ba5b-238eb60db0bd" name="Changes" comment="Post data to server">
+    <list default="true" id="e11def3d-ec5f-45e6-ba5b-238eb60db0bd" name="Changes" comment="Framer Motion Menu">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/card/card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/card/card.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/product/product.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/product/product.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/helpers/helpers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/helpers/helpers.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/layout/menu/menu.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/layout/menu/menu.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/layout/menu/menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/layout/menu/menu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/client/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +110,7 @@
       <workItem from="1684628996985" duration="4813000" />
       <workItem from="1684672675647" duration="4309000" />
       <workItem from="1684754884668" duration="5701000" />
-      <workItem from="1684771102286" duration="4032000" />
+      <workItem from="1684771102286" duration="6157000" />
     </task>
     <task id="LOCAL-00001" summary="Shablon &amp;&amp; site structure">
       <created>1683295541792</created>
@@ -279,7 +280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684760554091</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Reference of review">
+      <created>1684801582392</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1684801582392</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,6 +326,8 @@
     <MESSAGE value="Validations" />
     <MESSAGE value="Validations (fixed all bugs)" />
     <MESSAGE value="Post data to server" />
-    <option name="LAST_COMMIT_MESSAGE" value="Post data to server" />
+    <MESSAGE value="Reference of review" />
+    <MESSAGE value="Framer Motion Menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Framer Motion Menu" />
   </component>
 </project>
