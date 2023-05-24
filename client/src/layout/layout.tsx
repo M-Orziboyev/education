@@ -5,6 +5,7 @@ import Footer from "@/src/layout/footer/footer";
 import {FunctionComponent} from "react";
 import styles from "./layout.module.css"
 import {AppContextProvider, IAppContext} from "@/src/context/app.context";
+import {ScrollUp} from "@/src/components";
 
 const Layout = ({children}: LayoutProps): JSX.Element => {
     return <>
@@ -13,6 +14,7 @@ const Layout = ({children}: LayoutProps): JSX.Element => {
             <Sidebar className={styles.sidebar}/>
             <div className={styles.body}>{children}</div>
             <Footer className={styles.footer}/>
+            <ScrollUp />
         </div>
     </>
 }

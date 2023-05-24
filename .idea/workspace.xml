@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e11def3d-ec5f-45e6-ba5b-238eb60db0bd" name="Changes" comment="Framer Motion Menu">
+    <list default="true" id="e11def3d-ec5f-45e6-ba5b-238eb60db0bd" name="Changes" comment="Product animation">
+      <change afterPath="$PROJECT_DIR$/client/src/components/scroll-up/scroll-up.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/scroll-up/scroll.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/scroll-up/up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/hooks/useScrollY.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/product/product.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/product/product.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/layout/menu/menu.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/layout/menu/menu.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/page-components/course-page-component/course-page-component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/page-components/course-page-component/course-page-component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/page-components/course-page-component/sort.reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/page-components/course-page-component/sort.reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/layout/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/layout/layout.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +113,7 @@
       <workItem from="1684672675647" duration="4309000" />
       <workItem from="1684754884668" duration="5701000" />
       <workItem from="1684771102286" duration="6157000" />
-      <workItem from="1684920584520" duration="3503000" />
+      <workItem from="1684920584520" duration="6328000" />
     </task>
     <task id="LOCAL-00001" summary="Shablon &amp;&amp; site structure">
       <created>1683295541792</created>
@@ -288,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684801582392</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Product animation">
+      <created>1684924834484</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1684924834484</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,6 +337,7 @@
     <MESSAGE value="Post data to server" />
     <MESSAGE value="Reference of review" />
     <MESSAGE value="Framer Motion Menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Framer Motion Menu" />
+    <MESSAGE value="Product animation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Product animation" />
   </component>
 </project>
