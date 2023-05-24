@@ -8,7 +8,7 @@ import {Controller, useForm} from 'react-hook-form';
 import {IReviewForm, IReviewResponse} from './review-form.interface';
 import axios from "axios";
 import {useState} from "react";
-import CloseIcon from './close.svg'
+import CloseIcon from '../icon-button/icons/close.svg'
 const ReviewForm = ({productid, className, ...props}: ReviewFormProps): JSX.Element => {
     const [isSuccess, setIsSuccess] = useState<boolean>(false)
     const [error, setError] = useState<boolean>(false)
