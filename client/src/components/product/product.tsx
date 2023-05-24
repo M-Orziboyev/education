@@ -8,11 +8,12 @@ import Tag from '../tag/tag';
 import Devider from '../devider/devider';
 import Button from '../button/button';
 import cn from 'classnames';
-import {useRef, useState} from 'react';
+import {ForwardedRef, forwardRef, useRef, useState} from 'react';
 import Review from '../review/review';
 import ReviewForm from '../review-form/review-form';
+import {motion} from "framer-motion";
 
-const Product = ({product, className, ...props}: ProductProps): JSX.Element => {
+const Product = motion(forwardRef(({product, className, ...props}: ProductProps, ref: ForwardedRef<HTMLDivElement>): JSX.Element => {
     const [reviewOpen, setReviewOpen] = useState<boolean>(false);
 
     const reviewRef = useRef<HTMLDivElement>(null)
@@ -23,7 +24,7 @@ const Product = ({product, className, ...props}: ProductProps): JSX.Element => {
     }
 
     return (
-        <div className={className} {...props}>
+        <div className={className} ref={ref} {...props}>
             <Card className={styles.product}>
                 <div className={styles.logo}>
                     <Image src={product.images} alt={product.title} width={70} height={70}/>
@@ -120,10 +121,7 @@ const Product = ({product, className, ...props}: ProductProps): JSX.Element => {
             </Card>
         </div>
     );
-};
+}));
 
 export default Product;
 
-function setReviewOpen(arg0: boolean) {
-    throw new Error('Function not implemented.');
-}

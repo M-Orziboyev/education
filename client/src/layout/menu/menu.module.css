@@ -27,12 +27,9 @@
     padding-right: 32px;
     border-right: 1px solid #e5e5e5;
 }
-/*.secondLevelBlock{*/
-/*    display: block;*/
-/*}*/
-/*.secondLevelBlockActive{*/
-/*    display: none;*/
-/*}*/
+.secondLevelBlock{
+    overflow: hidden;
+}
 .secondLevel{
     margin-bottom: 10px;
     cursor: pointer;
