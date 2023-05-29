@@ -14,9 +14,9 @@ const Button = ({ appearance, arrow = 'none', size, className, children, ...prop
                 [styles.success]: appearance === 'success',
     // @ts-ignore
                 [styles.failure]: appearance === 'failure',
-                [styles.s]: size === 's',
-                [styles.m]: size === 'm',
-                [styles.l]: size === 'l',
+                [styles.s]: size === 'small',
+                [styles.m]: size === 'medium',
+                [styles.l]: size === 'large',
             })}
             {...props}
         >
