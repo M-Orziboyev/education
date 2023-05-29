@@ -3,7 +3,18 @@ import {ComponentMeta, ComponentStory} from "@storybook/react";
 
 export default {
     name: 'Heading',
-    component: Heading
+    component: Heading,
+    argTypes: {
+        size: {
+            type:"string",
+            description: 'Heading size',
+            defaultValue: 'h2',
+            options:["h1", 'h2', 'h3' ],
+            control:{
+                type: 'select'
+            }
+        }
+    }
 }as ComponentMeta<typeof Heading>
 
 const Template: ComponentStory<typeof Heading> = args => <Heading {...args}/>

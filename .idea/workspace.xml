@@ -4,24 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e11def3d-ec5f-45e6-ba5b-238eb60db0bd" name="Changes" comment="storybook">
-      <change afterPath="$PROJECT_DIR$/src/components/button/button.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/heading/heading.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/input/input.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/tag/tag.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/text/text.stories.tsx" afterDir="false" />
+    <list default="true" id="e11def3d-ec5f-45e6-ba5b-238eb60db0bd" name="Changes" comment="Custom Theme">
+      <change afterPath="$PROJECT_DIR$/.storybook/manager.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.storybook/sammi-theme.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.storybook/preview.ts" beforeDir="false" afterPath="$PROJECT_DIR$/.storybook/preview.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/button/button.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/button/button.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/button/button.props.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/button/button.props.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/button/button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/button/button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tag/tag.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tag/tag.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tag/tag.pros.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tag/tag.props.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tag/tag.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tag/tag.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/text/text.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/text/text.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/text/text.props.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/text/text.props.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/text/text.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/text/text.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/button/button.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/button/button.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/heading/heading.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/heading/heading.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Button.stories.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Button.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Header.stories.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Header.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Introduction.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Page.stories.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/assets/code-brackets.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/assets/colors.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/assets/comments.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/assets/direction.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/assets/flow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/assets/plugin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/assets/repo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/assets/stackalt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/button.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/header.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/page.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,25 +47,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/Muzaffar/Dasturlash/education/src/components/button/button.stories.tsx",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "prettierjs.PrettierConfiguration.Package": "D:\\Muzaffar\\Dasturlash\\education\\node_modules\\prettier",
-    "ts.external.directory.path": "D:\\Muzaffar\\Dasturlash\\education\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Muzaffar/Dasturlash/education/src/components/button/button.stories.tsx&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;D:\\Muzaffar\\Dasturlash\\education\\node_modules\\prettier&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\Muzaffar\\Dasturlash\\education\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Muzaffar\Dasturlash\education" />
@@ -139,7 +145,8 @@
       <workItem from="1685207188315" duration="271000" />
       <workItem from="1685207987473" duration="3929000" />
       <workItem from="1685277556627" duration="3623000" />
-      <workItem from="1685374456984" duration="6749000" />
+      <workItem from="1685374456984" duration="7755000" />
+      <workItem from="1685393293041" duration="1879000" />
     </task>
     <task id="LOCAL-00001" summary="Shablon &amp;&amp; site structure">
       <created>1683295541792</created>
@@ -351,7 +358,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685374554523</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Custom Theme">
+      <created>1685381898632</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1685381898632</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -369,7 +383,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="footer component style" />
     <MESSAGE value="SSR alias page &amp; interfaces" />
     <MESSAGE value="Context Provider" />
     <MESSAGE value="Menu component (not compelete)" />
@@ -394,7 +407,8 @@
     <MESSAGE value="useScroll to top" />
     <MESSAGE value="update file in this project" />
     <MESSAGE value="storybook" />
-    <option name="LAST_COMMIT_MESSAGE" value="storybook" />
+    <MESSAGE value="Custom Theme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Custom Theme" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -402,7 +416,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/tag/tag.stories.tsx</url>
           <line>18</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

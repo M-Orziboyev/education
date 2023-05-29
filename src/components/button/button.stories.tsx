@@ -3,7 +3,27 @@ import {ComponentMeta, ComponentStory} from "@storybook/react";
 
 export default {
     name: 'Button',
-    component: Button
+    component: Button,
+    argTypes:{
+        appearance: {
+            type:"string",
+            description: 'Button color style',
+            defaultValue: 'primary',
+            options:["primary", 'ghost', 'success' ],
+            control:{
+                type: 'select'
+            }
+        },
+        size: {
+            type:"string",
+            description: 'Button size',
+            defaultValue: 'medium',
+            options:["small", 'medium', 'large' ],
+            control:{
+                type: 'select'
+            }
+        }
+    }
 } as ComponentMeta<typeof Button>
 
 const Template: ComponentStory<typeof Button> = args => <Button {...args}/>
@@ -45,6 +65,10 @@ Small.args = {
     children: "Button",
     appearance: 'success',
     size: 'small'
+}
+
+export const Arrow: ComponentStory<typeof Button> = ({...args}) => {
+    return <Button appearance='primary' arrow={"down"} {...args} >Button</Button>
 }
 
 
