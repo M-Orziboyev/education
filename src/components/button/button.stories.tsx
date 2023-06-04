@@ -1,5 +1,6 @@
 import Button from "./button";
 import {ComponentMeta, ComponentStory} from "@storybook/react";
+import {useState} from "react";
 
 export default {
     name: 'Button',
@@ -22,7 +23,9 @@ export default {
             control:{
                 type: 'select'
             }
-        }
+        },
+
+
     }
 } as ComponentMeta<typeof Button>
 
@@ -68,7 +71,9 @@ Small.args = {
 }
 
 export const Arrow: ComponentStory<typeof Button> = ({...args}) => {
-    return <Button appearance='primary' arrow={"down"} {...args} >Button</Button>
+    const [toggle, setToggle] = useState<boolean>(false)
+
+    const toggleButton = () => setToggle(prev => !prev)
+
+    return <Button arrow={toggle ? 'down' : 'right'} onClick={toggleButton} {...args} >Button</Button>
 }
-
-
