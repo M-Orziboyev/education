@@ -8,7 +8,8 @@ import {firstLevelMenu} from "@/src/helpers/constants";
 import {CoursePageComponent} from "@/src/page-components";
 
 const Index = ({ products, firstCategory, page}:PageProps):JSX.Element =>{
-    return <CoursePageComponent firstCategory={firstCategory} page={page} products={products} />
+    // @ts-ignore
+    return <CoursePageComponent firstCategory={firstCategory} page={page} products={products}/>
 }
 
 export default withLayout(Index)

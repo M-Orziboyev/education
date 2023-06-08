@@ -7,3 +7,8 @@ export const firstLevelMenu: IFirstLevelMenu[] = [
     {route: 'courses', name: 'Course', icon: <CoursesIcon/>, id:PageCategory.Courses},
     {route: 'books', name: 'Books', icon: <BooksIcon />, id:PageCategory.Books},
 ]
+
+export const navLinks = [
+    {name: 'Home', route: '/',},
+    {name: 'About', route: '/courses'}
+]

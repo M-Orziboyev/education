@@ -64,7 +64,7 @@ const CoursePageComponent = ({ page, products }: CoursePageComponentProps): JSX.
             )}
 
             {/* DESCRIPTION */}
-            <Text size={"m"}>{page.description}</Text>
+            <Text size={"medium"}>{page.description}</Text>
 
             {/* SKILLS */}
             <Heading tag='h2'>Skills</Heading>

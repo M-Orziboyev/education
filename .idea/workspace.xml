@@ -4,25 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e11def3d-ec5f-45e6-ba5b-238eb60db0bd" name="Changes" comment="Custom Theme">
-      <change afterPath="$PROJECT_DIR$/.storybook/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.storybook/preview.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/navbar/navbar.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/navbar/navbar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page-components/home-page-component/home-page-component.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page-components/home-page-component/home-page-component.tsx" afterDir="false" />
+    <list default="true" id="e11def3d-ec5f-45e6-ba5b-238eb60db0bd" name="Changes" comment="Navigation bar with responsive">
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page-components/home-page-component/bg.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.storybook/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.storybook/manager.js" beforeDir="false" afterPath="$PROJECT_DIR$/.storybook/manager.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.storybook/preview.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/advantages/advantages.props.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/advantages/advantages.props.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/button/button.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/button/button.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page-components/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/page-components/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helpers/constants.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/constants.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/navbar/navbar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/navbar/navbar.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/navbar/navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/navbar/navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page-components/course-page-component/course-page-component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/page-components/course-page-component/course-page-component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page-components/home-page-component/home-page-component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/page-components/home-page-component/home-page-component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/[type]/[slug].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/[type]/[slug].tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +139,10 @@
       <workItem from="1685862440920" duration="2849000" />
       <workItem from="1685872342319" duration="7310000" />
       <workItem from="1685881217658" duration="623000" />
-      <workItem from="1685892006726" duration="2402000" />
+      <workItem from="1685892006726" duration="2998000" />
+      <workItem from="1685979800768" duration="17000" />
+      <workItem from="1686056071575" duration="403000" />
+      <workItem from="1686207732647" duration="3246000" />
     </task>
     <task id="LOCAL-00001" summary="Shablon &amp;&amp; site structure">
       <created>1683295541792</created>
@@ -367,7 +361,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685381898632</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Home Page">
+      <created>1685897627791</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1685897627791</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -385,8 +386,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="SSR alias page &amp; interfaces" />
-    <MESSAGE value="Context Provider" />
     <MESSAGE value="Menu component (not compelete)" />
     <MESSAGE value="Menu component (complete)" />
     <MESSAGE value="Route SSR" />
@@ -410,7 +409,9 @@
     <MESSAGE value="update file in this project" />
     <MESSAGE value="storybook" />
     <MESSAGE value="Custom Theme" />
-    <option name="LAST_COMMIT_MESSAGE" value="Custom Theme" />
+    <MESSAGE value="Home Page" />
+    <MESSAGE value="Navigation bar with responsive" />
+    <option name="LAST_COMMIT_MESSAGE" value="Navigation bar with responsive" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
