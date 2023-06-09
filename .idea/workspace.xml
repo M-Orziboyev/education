@@ -4,16 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e11def3d-ec5f-45e6-ba5b-238eb60db0bd" name="Changes" comment="Navigation bar with responsive">
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page-components/home-page-component/bg.png" afterDir="false" />
+    <list default="true" id="e11def3d-ec5f-45e6-ba5b-238eb60db0bd" name="Changes" comment="Home Page UI design">
+      <change afterPath="$PROJECT_DIR$/src/helpers/icons/amazon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/icons/amd.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/icons/cisco.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/icons/dropcam.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/icons/logitech.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/icons/spotify.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/helpers/constants.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/constants.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/navbar/navbar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/navbar/navbar.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/navbar/navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/navbar/navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page-components/course-page-component/course-page-component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/page-components/course-page-component/course-page-component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page-components/home-page-component/home-page-component.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/page-components/home-page-component/home-page-component.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/page-components/home-page-component/home-page-component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/page-components/home-page-component/home-page-component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/[type]/[slug].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/[type]/[slug].tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,6 +146,10 @@
       <workItem from="1685979800768" duration="17000" />
       <workItem from="1686056071575" duration="403000" />
       <workItem from="1686207732647" duration="3246000" />
+      <workItem from="1686221139859" duration="3840000" />
+      <workItem from="1686238872420" duration="1662000" />
+      <workItem from="1686286649827" duration="864000" />
+      <workItem from="1686332147620" duration="4144000" />
     </task>
     <task id="LOCAL-00001" summary="Shablon &amp;&amp; site structure">
       <created>1683295541792</created>
@@ -368,7 +375,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685897627791</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Navigation bar with responsive">
+      <created>1686221480199</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1686221480199</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,7 +400,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Menu component (not compelete)" />
     <MESSAGE value="Menu component (complete)" />
     <MESSAGE value="Route SSR" />
     <MESSAGE value="Devider Component &amp; Page components" />
@@ -411,7 +424,8 @@
     <MESSAGE value="Custom Theme" />
     <MESSAGE value="Home Page" />
     <MESSAGE value="Navigation bar with responsive" />
-    <option name="LAST_COMMIT_MESSAGE" value="Navigation bar with responsive" />
+    <MESSAGE value="Home Page UI design" />
+    <option name="LAST_COMMIT_MESSAGE" value="Home Page UI design" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

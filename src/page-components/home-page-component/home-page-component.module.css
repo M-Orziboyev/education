@@ -1,0 +1,54 @@
+/*.home{*/
+/*    min-height: 90vh;*/
+/*}*/
+.hero{
+    height: 90vh;
+    margin-top: 10vh;
+    background-image: url(./bg.png);
+    background-position: center;
+    background-size: cover;
+    padding: 0 30px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+}
+.heroTitle h1{
+    font-size:60px;
+    color: var(--white);
+    line-height: 80px;
+    margin-bottom: 10px;
+}
+
+.heroTitle h1 span {
+    color: var(--white);
+}
+.heroTitle p{
+    color: var(--white);
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 800px) {
+    .hero{
+        grid-template-columns: 100%;
+        align-items: self-start;
+    }
+    .heroImage{
+        display:none;
+    }
+}
+
+.company{
+    padding:0 20px;
+    text-align: center;
+}
+.companyIcon{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:30px;
+}
+.companyIcon svg {
+    margin-top: 10px;
+}
