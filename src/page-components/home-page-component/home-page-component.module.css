@@ -11,6 +11,7 @@
     display: grid;
     grid-template-columns: 50% 50%;
     align-items: center;
+    overflow: hidden;
 }
 .heroTitle h1{
     font-size:60px;
@@ -26,17 +27,6 @@
     color: var(--white);
     margin-bottom: 10px;
 }
-
-@media screen and (max-width: 800px) {
-    .hero{
-        grid-template-columns: 100%;
-        align-items: self-start;
-    }
-    .heroImage{
-        display:none;
-    }
-}
-
 .company{
     padding:0 20px;
     text-align: center;
@@ -52,3 +42,37 @@
 .companyIcon svg {
     margin-top: 10px;
 }
+
+.timeline{
+    text-align: center;
+    width: 70%;
+    margin: 50px auto;
+}
+.mobileTimeLine{
+    display: none;
+}
+
+
+@media screen and (max-width: 800px) {
+    .hero{
+        grid-template-columns: 100%;
+        align-items: self-start;
+    }
+    .heroImage{
+        display:none;
+    }
+    .timelineCard{
+        display: none;
+    }
+    .mobileTimeLine{
+        display: block;
+    }
+    .mobileTimeLine .card{
+        margin-top: 20px;
+        border-left: 5px solid var(--primary);
+    }
+    .timeline{
+        width: 98%;
+    }
+}
+

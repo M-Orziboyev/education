@@ -5,18 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e11def3d-ec5f-45e6-ba5b-238eb60db0bd" name="Changes" comment="Home Page UI design">
-      <change afterPath="$PROJECT_DIR$/src/helpers/icons/amazon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helpers/icons/amd.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helpers/icons/cisco.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helpers/icons/dropcam.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helpers/icons/logitech.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helpers/icons/spotify.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helpers/constants.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/constants.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/search/search.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/search/search.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/search/search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/search/search.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/header/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/header/header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/layout.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/layout.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/menu/menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/menu/menu.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/page-components/home-page-component/home-page-component.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/page-components/home-page-component/home-page-component.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/page-components/home-page-component/home-page-component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/page-components/home-page-component/home-page-component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/search.tsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +148,9 @@
       <workItem from="1686221139859" duration="3840000" />
       <workItem from="1686238872420" duration="1662000" />
       <workItem from="1686286649827" duration="864000" />
-      <workItem from="1686332147620" duration="4144000" />
+      <workItem from="1686332147620" duration="5405000" />
+      <workItem from="1686396353783" duration="2892000" />
+      <workItem from="1686474546128" duration="6780000" />
     </task>
     <task id="LOCAL-00001" summary="Shablon &amp;&amp; site structure">
       <created>1683295541792</created>
@@ -382,7 +383,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686221480199</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Home Page UI design">
+      <created>1686338543805</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1686338543805</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

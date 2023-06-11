@@ -1,22 +1,25 @@
-import {HeaderProps} from "@/src/layout/header/header.props";
-import styles from './header.module.css'
-import cn from 'classnames'
-import LogoIcon from '../logo.svg'
-import {IconButton} from "@/src/components";
-import {useState} from "react";
-import Sidebar from "@/src/layout/sidebar/sidebar";
-import {motion} from 'framer-motion'
+import { HeaderProps } from './header.props';
+import styles from './header.module.css';
+import cn from 'classnames';
+import LogoIcon from '../logo.svg';
+import { IconButton } from '../../components';
+import { useState } from 'react';
+import Sidebar from '../sidebar/sidebar';
+import { motion } from 'framer-motion';
+import Link from 'next/link';
 
-const Header = ({className, ...props}: HeaderProps): JSX.Element => {
-    const [isOpen, setIsOpen] = useState<boolean>(false)
+const Header = ({ className, ...props }: HeaderProps): JSX.Element => {
+    const [isOpen, setIsOpen] = useState<boolean>(false);
+
+    const toggleMenu = () => setIsOpen(prev => !prev);
 
     const variants = {
-        opened:{
+        opened: {
             opacity: 1,
             x: 0,
             transition: {
-                stiffness:20,
-            }
+                stiffnes: 20,
+            },
         },
         closed: {
             opacity: 0,
@@ -26,13 +29,16 @@ const Header = ({className, ...props}: HeaderProps): JSX.Element => {
 
     return (
         <div className={cn(className, styles.header)} {...props}>
-            <LogoIcon/>
-            <IconButton icon={"menu"} appearance={'white'}/>
+            <Link href={'/'}>
+                <LogoIcon />
+            </Link>
+            <IconButton icon='menu' appearance='white' onClick={toggleMenu} />
             <motion.div variants={variants} initial={'closed'} animate={isOpen ? 'opened' : 'closed'} className={styles.mobileMenu}>
-                <Sidebar/>
-                <IconButton icon={"close"} appearance={"white"} className={styles.closeIcon}/>
+                <Sidebar />
+                <IconButton className={styles.closeIcon} onClick={toggleMenu} icon={'close'} appearance={'white'} />
             </motion.div>
-    </div>
-    )
-}
-export default Header
+        </div>
+    );
+};
+
+export default Header;

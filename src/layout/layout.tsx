@@ -6,6 +6,7 @@ import {FunctionComponent} from "react";
 import styles from "./layout.module.css"
 import {AppContextProvider, IAppContext} from "@/src/context/app.context";
 import {ScrollUp} from "@/src/components";
+import {useRouter} from "next/router";
 
 const Layout = ({children}: LayoutProps): JSX.Element => {
     return <>
@@ -14,17 +15,23 @@ const Layout = ({children}: LayoutProps): JSX.Element => {
             <Sidebar className={styles.sidebar}/>
             <div className={styles.body}>{children}</div>
             <Footer className={styles.footer}/>
-            <ScrollUp />
+            {/*// @ts-ignore*/}
+            <ScrollUp/>
         </div>
     </>
 }
 export const withLayout = <T extends Record<string, unknown> & IAppContext>(Component: FunctionComponent<T>) => {
     return function withLayoutComponent(props: T): JSX.Element {
+        const router = useRouter()
         return (
             <AppContextProvider menu={props.menu} firstCategory={props.firstCategory}>
-                <Layout>
-                    <Component {...props} />
-                </Layout>
+                {router.asPath === '/' ? (
+                        <Component {...props} />
+                    ) :
+                    <Layout>
+                        <Component {...props} />
+                    </Layout>
+                }
             </AppContextProvider>
         )
     }
