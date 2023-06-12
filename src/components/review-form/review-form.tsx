@@ -68,7 +68,7 @@ const ReviewForm = ({productid, className, ...props}: ReviewFormProps): JSX.Elem
                     {...register('description', {required: {value: true, message: 'Description is required'}})}
                 />
                 <div className={styles.submit}>
-                    <Button appearance='primary'>Submit</Button>
+                    <Button size={"medium"} appearance='primary'>Submit</Button>
                     <span
                         className={styles.info}>* Your review will be moderated and reviewed before being published.</span>
                 </div>
