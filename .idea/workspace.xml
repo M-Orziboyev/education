@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e11def3d-ec5f-45e6-ba5b-238eb60db0bd" name="Changes" comment="Search (functional)">
+      <change afterPath="$PROJECT_DIR$/src/config/site.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/seo/seo.props.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/seo/seo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/[type]/[slug].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/[type]/[slug].tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_app.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,11 +61,26 @@
       <recent name="D:\Muzaffar\Dasturlash\education\backend\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.button.tsx">
+  <component name="RunManager" selected="Node.js._app.tsx">
+    <configuration name="_app.tsx" type="NodeJSConfigurationType" temporary="true" node-parameters="--require ts-node/register " path-to-js-file="$PROJECT_DIR$/src/pages/_app.tsx" working-dir="$PROJECT_DIR$/src/pages">
+      <method v="2" />
+    </configuration>
     <configuration name="button.tsx" type="NodeJSConfigurationType" temporary="true" node-parameters="--require ts-node/register " path-to-js-file="$PROJECT_DIR$/src/components/button/button.tsx" working-dir="$PROJECT_DIR$/src/components/button">
       <method v="2" />
     </configuration>
     <configuration name="review-form.tsx" type="NodeJSConfigurationType" temporary="true" node-parameters="--require ts-node/register " path-to-js-file="$PROJECT_DIR$/src/components/button/button.stories.tsx" working-dir="$PROJECT_DIR$/client/src/components/review-form">
+      <method v="2" />
+    </configuration>
+    <configuration name="_app.tsx" type="TypeScriptProgramRunner" factoryName="TypeScript" temporary="true">
+      <module name="education" />
+      <option name="interpreterRef" value="project" />
+      <option name="enabledTsNodeEsmLoader" value="false" />
+      <option name="interpreterOptions" value="" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/src/pages" />
+      <option name="tsconfigFile" value="" />
+      <option name="extraTypeScriptOptions" value="" />
+      <option name="scriptName" value="$PROJECT_DIR$/src/pages/_app.tsx" />
+      <option name="programParameters" value="" />
       <method v="2" />
     </configuration>
     <configuration name="hhData.tsx" type="TypeScriptProgramRunner" factoryName="TypeScript" temporary="true">
@@ -79,6 +97,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js._app.tsx" />
+        <item itemvalue="TypeScript._app.tsx" />
         <item itemvalue="Node.js.button.tsx" />
         <item itemvalue="Node.js.review-form.tsx" />
         <item itemvalue="TypeScript.hhData.tsx" />
@@ -145,7 +165,8 @@
       <workItem from="1686332147620" duration="5405000" />
       <workItem from="1686396353783" duration="2892000" />
       <workItem from="1686474546128" duration="7156000" />
-      <workItem from="1686551685859" duration="1715000" />
+      <workItem from="1686551685859" duration="2848000" />
+      <workItem from="1686567018809" duration="1239000" />
     </task>
     <task id="LOCAL-00001" summary="Shablon &amp;&amp; site structure">
       <created>1683295541792</created>
@@ -392,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686481730065</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Search (functional)">
+      <created>1686553733620</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1686553733620</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

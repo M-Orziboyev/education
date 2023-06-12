@@ -1,26 +1,29 @@
-import * as React from "react";
-import '@/src/styles/globals.css'
-import NProgress from "nprogress";
-import type {AppProps} from 'next/app'
-import "nprogress/nprogress.css";
-import Router from 'next/router'
+import * as React from 'react';
+import { AppProps } from 'next/app';
+import '../styles/globals.css';
+import 'nprogress/nprogress.css';
+import NProgress from 'nprogress';
+import Router from 'next/router';
 
-NProgress.configure({showSpinner: false})
-export default function App({Component, pageProps}: AppProps) {
-    React.useEffect(() => {
-        const handleRouteStart = () => NProgress.start();
-        const handleRouteDone = () => NProgress.done();
+NProgress.configure({ showSpinner: false });
 
-        Router.events.on("routeChangeStart", handleRouteStart);
-        Router.events.on("routeChangeComplete", handleRouteDone);
-        Router.events.on("routeChangeError", handleRouteDone);
+function MyApp({ Component, pageProps }: AppProps): JSX.Element {
+  React.useEffect(() => {
+    const handleRouteStart = () => NProgress.start();
+    const handleRouteDone = () => NProgress.done();
 
-        return () => {
-            // Make sure to remove the event handler on unmount!
-            Router.events.off("routeChangeStart", handleRouteStart);
-            Router.events.off("routeChangeComplete", handleRouteDone);
-            Router.events.off("routeChangeError", handleRouteDone);
-        };
-    }, []);
-    return <Component {...pageProps} />
+    Router.events.on('routeChangeStart', handleRouteStart);
+    Router.events.on('routeChangeComplete', handleRouteDone);
+    Router.events.on('routeChangeError', handleRouteDone);
+
+    return () => {
+      Router.events.off('routeChangeStart', handleRouteStart);
+      Router.events.off('routeChangeComplete', handleRouteDone);
+      Router.events.off('routeChangeError', handleRouteDone);
+    };
+  }, []);
+
+  return <Component {...pageProps} />;
 }
+// @ts-ignore
+export default MyApp;

@@ -6,10 +6,15 @@ import {ProductModel} from "@/src/interfaces/product.interface";
 import {PageModel} from "@/src/interfaces/page.interface";
 import {firstLevelMenu} from "@/src/helpers/constants";
 import {CoursePageComponent} from "@/src/page-components";
+import Seo from "@/src/layout/seo/seo";
 
 const Index = ({ products, firstCategory, page}:PageProps):JSX.Element =>{
-    // @ts-ignore
-    return <CoursePageComponent firstCategory={firstCategory} page={page} products={products}/>
+    return (
+        <Seo metaTitle={page.title} metaDescription={page.description} metaKeyword={page.tags.toString()}>
+    {/*// @ts-ignore*/}
+            <CoursePageComponent products={products} firstCategory={firstCategory} page={page} />
+        </Seo>
+    );
 }
 
 export default withLayout(Index)

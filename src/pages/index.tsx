@@ -3,9 +3,14 @@ import {GetServerSideProps} from "next";
 import axios from "axios";
 import {MenuItem} from "@/src/interfaces/menu.interface";
 import {withLayout} from "@/src/layout/layout";
+import Seo from "@/src/layout/seo/seo";
 
 const Index = (): JSX.Element => {
-    return <HomePageComponent/>
+    return (
+        <Seo>
+            <HomePageComponent />
+        </Seo>
+    );
 }
 export default withLayout(Index)
 
