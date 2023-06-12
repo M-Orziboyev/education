@@ -4,6 +4,7 @@ import '../styles/globals.css';
 import 'nprogress/nprogress.css';
 import NProgress from 'nprogress';
 import Router from 'next/router';
+import { Analytics } from '@vercel/analytics/react';
 
 NProgress.configure({ showSpinner: false });
 
@@ -23,7 +24,10 @@ function MyApp({ Component, pageProps }: AppProps): JSX.Element {
     };
   }, []);
 
-  return <Component {...pageProps} />;
+  return <>
+    <Component {...pageProps} />;
+    <Analytics />
+   </>
 }
 // @ts-ignore
 export default MyApp;
