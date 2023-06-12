@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e11def3d-ec5f-45e6-ba5b-238eb60db0bd" name="Changes" comment="Search (functional)">
-      <change afterPath="$PROJECT_DIR$/src/config/site.config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/seo/seo.props.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/seo/seo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="e11def3d-ec5f-45e6-ba5b-238eb60db0bd" name="Changes" comment="Seo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/[type]/[slug].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/[type]/[slug].tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_app.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/product/product.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/product/product.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +160,7 @@
       <workItem from="1686396353783" duration="2892000" />
       <workItem from="1686474546128" duration="7156000" />
       <workItem from="1686551685859" duration="2848000" />
-      <workItem from="1686567018809" duration="1239000" />
+      <workItem from="1686567018809" duration="2074000" />
     </task>
     <task id="LOCAL-00001" summary="Shablon &amp;&amp; site structure">
       <created>1683295541792</created>
@@ -420,7 +414,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686553733620</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Seo">
+      <created>1686568457666</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1686568457666</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -438,7 +439,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Route SSR" />
     <MESSAGE value="Devider Component &amp; Page components" />
     <MESSAGE value="Heading Hunter Data" />
     <MESSAGE value="Heading Hunter Data (HH Data)" />
@@ -463,7 +463,8 @@
     <MESSAGE value="Navigation bar with responsive" />
     <MESSAGE value="Home Page UI design" />
     <MESSAGE value="Search (functional)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Search (functional)" />
+    <MESSAGE value="Seo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Seo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
