@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e11def3d-ec5f-45e6-ba5b-238eb60db0bd" name="Changes" comment="Seo">
+    <list default="true" id="e11def3d-ec5f-45e6-ba5b-238eb60db0bd" name="Changes" comment="fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/product/product.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/product/product.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +159,7 @@
       <workItem from="1686396353783" duration="2892000" />
       <workItem from="1686474546128" duration="7156000" />
       <workItem from="1686551685859" duration="2848000" />
-      <workItem from="1686567018809" duration="2074000" />
+      <workItem from="1686567018809" duration="2772000" />
     </task>
     <task id="LOCAL-00001" summary="Shablon &amp;&amp; site structure">
       <created>1683295541792</created>
@@ -421,7 +420,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686568457666</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="fix">
+      <created>1686569214413</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1686569214413</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -439,7 +445,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Devider Component &amp; Page components" />
     <MESSAGE value="Heading Hunter Data" />
     <MESSAGE value="Heading Hunter Data (HH Data)" />
     <MESSAGE value="Advantage page" />
@@ -464,7 +469,8 @@
     <MESSAGE value="Home Page UI design" />
     <MESSAGE value="Search (functional)" />
     <MESSAGE value="Seo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Seo" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

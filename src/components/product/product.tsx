@@ -103,15 +103,13 @@ const Product = motion(forwardRef(({product, className, ...props}: ProductProps,
                 <Devider className={styles.hr2}/>
 
                 <div className={styles.actions}>
-                    {/*@ts-ignore*/}
-                    <Button appearance='primary'>More Details</Button>
-                    {/*@ts-ignore*/}
+                    <Button appearance='primary' size={"medium"}>More Details</Button>
                     <Button
                         appearance='ghost'
                         arrow={reviewOpen ? 'down' : 'right'}
                         className={styles.reviewBtn}
                         onClick={() => setReviewOpen(prev => !prev)}
-                    >
+                     size={'medium'}>
                         Review
                     </Button>
                 </div>
