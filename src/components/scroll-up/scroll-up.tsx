@@ -1,5 +1,4 @@
 import styles from './scroll.module.css';
-import UpIcon from '../icon-button/icons/up.svg'
 import {motion} from 'framer-motion'
 import {useScrollY} from "@/src/hooks/useScrollY";
 import IconButton from "@/src/components/icon-button/icon-button";

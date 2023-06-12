@@ -14,13 +14,13 @@ const HomePageComponent = ():JSX.Element => {
         <div className={styles.hero}>
             <div className={styles.heroTitle}>
                 <Heading tag={'h1'}>
-                    Learn New Skills with Sammi <span>Academy</span>
+                    Learn New Skills with Salvation <span>Academy</span>
                 </Heading>
-                <Text size={'medium'}>
+                <Text size={'small'}>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium asperiores et expedita
                     inventore iusto mollitia placeat, quam repellendus! Maxime, numquam.
                 </Text>
-                <Button size={'medium'} appearance={'primary'} arrow={'right'}>Join for free</Button>
+                <Button size={'large'} appearance={'success'} arrow={'right'}>Join for free</Button>
             </div>
             <div className={styles.heroImage}>
                 <Image src={'/hero.png'} alt={'hero-image'} height={500} width={600}/>

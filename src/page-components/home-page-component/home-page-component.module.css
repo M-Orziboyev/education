@@ -51,8 +51,19 @@
 .mobileTimeLine{
     display: none;
 }
+@media screen and (min-width: 800px) and (max-width: 1200px){
+    .heroTitle h1{
+        font-size: 50px;
+        margin-top: -50px;
+        line-height: 50px;
+    }.heroTitle p{
+        font-size: 20px;
+    }
+    .company h3{
+        font-size: 40px;
 
-
+    }
+}
 @media screen and (max-width: 800px) {
     .hero{
         grid-template-columns: 100%;
@@ -60,6 +71,14 @@
     }
     .heroImage{
         display:none;
+    }
+    .heroTitle h1{
+        font-size: 40px;
+        line-height: 50px;
+        padding-top: 60px;
+    }.heroTitle p{
+        font-size: 18px;
+        padding-top: 20px;
     }
     .timelineCard{
         display: none;
@@ -73,6 +92,20 @@
     }
     .timeline{
         width: 98%;
+    }
+    .timeline h3{
+        font-size: 40px;
+        text-shadow: 2px 3px 0 rgba(0, 255, 225, 0.62);
+        padding-bottom: 30px;
+    }
+    .timeline p{
+        font-size: 29px;
+        line-height: 36px;
+    }
+    .company h3{
+        font-size: 30px;
+        text-shadow: 2px 3px 0 rgba(0, 42, 255, 0.62);
+        padding-bottom: 30px;
     }
 }
 
