@@ -4,8 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e11def3d-ec5f-45e6-ba5b-238eb60db0bd" name="Changes" comment="fix">
+    <list default="true" id="e11def3d-ec5f-45e6-ba5b-238eb60db0bd" name="Changes" comment="response able">
+      <change afterPath="$PROJECT_DIR$/src/components/card/card.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.config.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/advantages/advantages.props.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/advantages/advantages.props.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/product/product.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/product/product.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/product/product.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/product/product.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/tag/tag.props.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tag/tag.props.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/tag/tag.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tag/tag.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/site.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/site.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page-components/home-page-component/home-page-component.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/page-components/home-page-component/home-page-component.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page-components/home-page-component/home-page-component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/page-components/home-page-component/home-page-component.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,6 +171,9 @@
       <workItem from="1686474546128" duration="7156000" />
       <workItem from="1686551685859" duration="2848000" />
       <workItem from="1686567018809" duration="5424000" />
+      <workItem from="1686586245143" duration="3638000" />
+      <workItem from="1686665053341" duration="613000" />
+      <workItem from="1686669494248" duration="8333000" />
     </task>
     <task id="LOCAL-00001" summary="Shablon &amp;&amp; site structure">
       <created>1683295541792</created>
@@ -448,7 +462,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686572288382</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="response able">
+      <created>1686590248424</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1686590248425</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -466,7 +487,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Heading Hunter Data" />
     <MESSAGE value="Heading Hunter Data (HH Data)" />
     <MESSAGE value="Advantage page" />
     <MESSAGE value="Product (Not Complete)" />
@@ -491,7 +511,8 @@
     <MESSAGE value="Search (functional)" />
     <MESSAGE value="Seo" />
     <MESSAGE value="fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+    <MESSAGE value="response able" />
+    <option name="LAST_COMMIT_MESSAGE" value="response able" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

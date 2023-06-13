@@ -8,7 +8,7 @@ import {Fragment} from "react";
 import Footer from "@/src/layout/footer/footer";
 import {Timeline, TimelineEvent} from 'react-event-timeline'
 
-const HomePageComponent = ():JSX.Element => {
+const HomePageComponent = (): JSX.Element => {
     return <div className={styles.home}>
         <Navbar/>
         <div className={styles.hero}>
@@ -17,8 +17,9 @@ const HomePageComponent = ():JSX.Element => {
                     Learn New Skills with Salvation <span>Academy</span>
                 </Heading>
                 <Text size={'small'}>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium asperiores et expedita
-                    inventore iusto mollitia placeat, quam repellendus! Maxime, numquam.
+                    The Salvation Academy focuses on student success and strive to be recognized as a national and
+                    international leader within the higher education community in providing quality and affordable
+                    education.
                 </Text>
                 <Button size={'large'} appearance={'success'} arrow={'right'}>Join for free</Button>
             </div>
@@ -28,35 +29,40 @@ const HomePageComponent = ():JSX.Element => {
         </div>
         <div className={styles.company}>
             <Heading tag={'h3'}>Trusted by the world's best</Heading>
+            <hr/>
             <div className={styles.companyIcon}>
                 {company.map((icon, idx) => <Fragment key={idx}>{icon}</Fragment>)}
             </div>
         </div>
         <div className={styles.timeline}>
             <Heading tag={'h3'}>What we can teach you?</Heading>
+            <hr/>
             <div className={styles.timelineCard}>
                 {/*@ts-ignore*/}
                 <Timeline lineColor={'#ddddd'}>{timeLineList.map(({Icon, title, text}, idx) => (
-                    <TimelineEvent key={idx}  title={title} icon={<Icon />} bubbleStyle={{borderColor: '#140342', backgroundColor: '#fff'}} contentStyle={{border: 'none', boxShadow: 'none', backgroundColor: 'transparent'}} titleStyle={{fontSize: '36px'}}>
-                        <Card color={'white'} style={{padding:20}}>
+                    <TimelineEvent key={idx} title={title} icon={<Icon/>}
+                                   bubbleStyle={{borderColor: '#140342', backgroundColor: '#fff'}}
+                                   contentStyle={{border: 'none', boxShadow: 'none', backgroundColor: 'transparent'}}
+                                   titleStyle={{fontSize: '36px'}}>
+                        <Card color={'white'} style={{padding: 20}}>
                             <Text size={'small'}>{text}</Text>
                         </Card>
                     </TimelineEvent>
                 ))}</Timeline>
             </div>
-                <div className={styles.mobileTimeLine}>
-                    {timeLineList.map((data, idx) => (
-                        <Card color={'white'} className={styles.card} style={{padding: 20}} key={idx}>
-                            <Heading tag={'h3'}>{data.title}</Heading>
-                            {/*@ts-ignore*/}
-                            <Text>{data.text}</Text>
-                        </Card>
-                    ))}
-                </div>
+            <div className={styles.mobileTimeLine}>
+                {timeLineList.map((data, idx) => (
+                    <Card color={'white'} className={styles.card} style={{padding: 20}} key={idx}>
+                        <Heading tag={'h3'}>{data.title}</Heading>
+                        {/*@ts-ignore*/}
+                        <Text>{data.text}</Text>
+                    </Card>
+                ))}
+            </div>
         </div>
-    {/*// @ts-ignore*/}
-        <ScrollUp />
-        <Footer />
+        {/*// @ts-ignore*/}
+        <ScrollUp/>
+        <Footer/>
     </div>
 }
 

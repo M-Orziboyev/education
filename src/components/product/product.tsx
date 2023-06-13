@@ -4,14 +4,13 @@ import Card from '../card/card';
 import Image from 'next/image';
 import {convertToUSD, detectedReview} from '../../helpers/helpers';
 import Rating from '../rating/rating';
-import Tag from '../tag/tag';
 import Devider from '../devider/devider';
 import Button from '../button/button';
-import cn from 'classnames';
 import {ForwardedRef, forwardRef, useRef, useState} from 'react';
 import Review from '../review/review';
 import ReviewForm from '../review-form/review-form';
 import {motion} from "framer-motion";
+import {Tag} from "@/src/components";
 
 const Product = motion(forwardRef(({product, className, ...props}: ProductProps, ref: ForwardedRef<HTMLDivElement>): JSX.Element => {
     const [reviewOpen, setReviewOpen] = useState<boolean>(false);
@@ -44,7 +43,7 @@ const Product = motion(forwardRef(({product, className, ...props}: ProductProps,
                 <div className={styles.price}>
                     {convertToUSD(product.price)}
                     {product.oldPrice && (
-                        <Tag color='green' className={styles.oldPrice}>
+                        <Tag color={"green"} style={{margin: '2px'}}>
                             {convertToUSD(product.price - product.oldPrice)}
                         </Tag>
                     )}
@@ -58,7 +57,7 @@ const Product = motion(forwardRef(({product, className, ...props}: ProductProps,
                 <div className={styles.tags}>
                     {product.tags.length &&
                         product.tags.map(t => (
-                            <Tag key={t} className={styles.category} color={'primary'}>
+                            <Tag key={t} color={'ghost'}>
                                 {t}
                             </Tag>
                         ))}

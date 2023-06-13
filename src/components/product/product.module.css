@@ -23,6 +23,7 @@
     grid-column: titlestart / middle;
 }
 
+
 .price,
 .priceTitle {
     grid-column: pricestart / priceend;
@@ -155,7 +156,7 @@
     .product {
         grid-template-columns: 70px 30px auto 40px auto 40px 1fr;
         grid-template-areas:
-			'logo . title title title title title'
+			'logo .title title title title title'
 			'logo . tags tags tags tags tags'
 			'price price price . credit . rating'
 			'priceTitle priceTitle priceTitle . creditTitle . rateTitle'

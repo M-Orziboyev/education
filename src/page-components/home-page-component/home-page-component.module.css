@@ -46,10 +46,20 @@
 .timeline{
     text-align: center;
     width: 70%;
-    margin: 50px auto;
+    margin: 100px auto;
+}
+.timeline h3{
+    font-size: 40px !important;
+    text-shadow: 2px 3px 0 rgba(0, 255, 225, 0.62);
+    padding-bottom: 30px;
 }
 .mobileTimeLine{
     display: none;
+}
+.company h3{
+    font-size: 40px;
+    text-shadow: 2px 3px 0 rgba(0, 42, 255, 0.62);
+    padding-bottom: 30px;
 }
 @media screen and (min-width: 800px) and (max-width: 1200px){
     .heroTitle h1{
