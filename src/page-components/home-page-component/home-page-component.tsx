@@ -7,6 +7,7 @@ import {company, timeLineList} from "@/src/helpers/constants";
 import {Fragment} from "react";
 import Footer from "@/src/layout/footer/footer";
 import {Timeline, TimelineEvent} from 'react-event-timeline'
+import Link from "next/link";
 
 const HomePageComponent = (): JSX.Element => {
     return <div className={styles.home}>
@@ -21,7 +22,7 @@ const HomePageComponent = (): JSX.Element => {
                     international leader within the higher education community in providing quality and affordable
                     education.
                 </Text>
-                <Button size={'large'} appearance={'success'} arrow={'right'}>Join for free</Button>
+                <Link href={'https://www.youtube.com/@salvation_team'}><Button size={'large'} appearance={'success'} arrow={'right'}>Join for free</Button></Link>
             </div>
             <div className={styles.heroImage}>
                 <Image src={'/hero.png'} alt={'hero-image'} height={500} width={600}/>
